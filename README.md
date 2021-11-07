@@ -5,8 +5,10 @@ The script in this repository allows you to connect to the networked KVM of an i
 The script unpacks `avctKVM.jar` and then passes on its command-line options to java.
 
 You may run this script as, e.g.:
-    
+
+```sh    
  ./idrac6_connect.sh -U admin -P calvin -h 192.168.0.4
+```
 
 ## Inspiration
 
